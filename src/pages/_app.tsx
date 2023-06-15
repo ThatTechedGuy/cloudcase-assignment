@@ -1,5 +1,4 @@
 import { FormProvider } from "@/state/FormContext";
-import "@/styles/globals.css";
 import { NextUIProvider } from "@nextui-org/react";
 import type { AppProps } from "next/app";
 

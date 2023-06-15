@@ -2,7 +2,6 @@
 
 import Head from "next/head";
 import { Button, Container, Spacer, Text } from "@nextui-org/react";
-import styles from "../styles/home.module.css";
 import { useRouter } from "next/router";
 
 export default function Home() {
@@ -41,7 +40,7 @@ export default function Home() {
           <a href="mailto: example@cloudcase.com">example@cloudcase.com</a>
         </Text>
       </main>
-      <footer className={styles.footer}>
+      <footer>
         <Text size="$base">
           &copy; {new Date().getFullYear()} Bank Inc. All rights reserved.
         </Text>
