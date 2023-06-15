@@ -63,7 +63,7 @@ export default function Form() {
             ${calculateAnnualTax(context.formState.annualSalary).toFixed(2)}
           </Text>
           <Text size="$lg">
-            Superannuation:{" "}
+            Superannuation (9.5%):{" "}
             ${calculateSuperannuation(context.formState.annualSalary).toFixed(2)}
           </Text>
         </>
