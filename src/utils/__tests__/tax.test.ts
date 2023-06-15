@@ -3,7 +3,7 @@ import { calculateAnnualTax, calculateSuperannuation } from "./../tax";
 describe("Tax and Superannuation Calculation", () => {
   test("Case 1: Salary $70,000", () => {
     const salary = 70000;
-    const expectedTax = 17869.135000000002;
+    const expectedTax = 17869.135;
     const expectedSuperannuation = 6650;
 
     const actualTax = calculateAnnualTax(salary);
