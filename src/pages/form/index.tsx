@@ -15,7 +15,7 @@ import {
 import { useCallback, useState } from "react";
 
 export default function Form() {
-  const [stage, setStage] = useState<FormStages>(FormStages.SUCCESS);
+  const [stage, setStage] = useState<FormStages>(FormStages.PERSONAL_DETAILS);
   const context = useFormContext();
 
   const onNextPress = useCallback(() => {
